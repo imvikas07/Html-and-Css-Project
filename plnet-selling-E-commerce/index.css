@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: rgb(21, 21, 21);
+    font-size: 16px;
+    background-color: rgb(245, 247, 248);
+}
+
+
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.logo img {
+    width: 50px; /* Set the width of the logo */
+    height: 50px;
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra space below the image */
+}
+
+.logo:hover img {
+    opacity: 0.8; /* Slightly reduce the opacity on hover */
+    transition: opacity 0.3s; /* Smooth transition */
+}
+
+
+.sign-up:hover{
+    color: rgb(103, 63, 105);
+}
+
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+    flex-wrap: wrap;
+}
+
+.left-container{
+    flex: 1;
+}
+
+.center-container{
+    flex: 2;
+}
+
+.right-container{
+    flex: 1;
+}
+
+
+.bamboo-img{
+    max-width: 500px;
+    height: auto;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(103, 63, 105);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+
+
+.btn:hover{
+    color: rgb(251, 109, 72);
+}
+
